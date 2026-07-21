@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mně | Dudy – ruční výroba</title>
+    <meta name="description" content="Jsem nejmladší dudař v ČR. Dudy vyrábím kompletně ručně s úctou k tradici a láskou k řemeslu.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ HLAVIČKA ============ -->
+    <header class="header header--solid">
+        <div class="container header__inner">
+            <a href="index.html" class="logo" aria-label="Dudy – ruční výroba">
+                <span class="logo__mark" aria-hidden="true">
+                    <svg viewBox="0 0 32 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 3v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                        <path d="M11 6l5-3 5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="12.5" y="13" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M16 22c-4 3-6 7-6 12v6h12v-6c0-5-2-9-6-12z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                        <circle cx="14" cy="31" r="1" fill="currentColor"/>
+                        <circle cx="18" cy="34" r="1" fill="currentColor"/>
+                        <circle cx="16" cy="27" r="1" fill="currentColor"/>
+                    </svg>
+                </span>
+                <span class="logo__text">
+                    <strong>DUDY</strong>
+                    <small>RUČNÍ VÝROBA</small>
+                </span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+            <label for="nav-toggle" class="nav-burger" aria-label="Otevřít menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav" aria-label="Hlavní navigace">
+                <ul>
+                    <li><a href="o-mne.html" class="is-active">O MNĚ</a></li>
+                    <li><a href="vyroba.html">VÝROBA DUD</a></li>
+                    <li><a href="galerie.html">GALERIE</a></li>
+                    <li><a href="reference.html">REFERENCE</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+                <a href="kontakt.html" class="btn btn--outline nav__cta">NAPIŠTE MI</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============ BANNER ============ -->
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">TRADICE. ŘEMESLO. SRDCE.</p>
+            <h1 class="page-hero__title">O mně</h1>
+            <span class="divider"></span>
+            <p class="page-hero__lead">Nejmladší dudař v České republice, který zasvětil svůj čas poctivému řemeslu a výrobě nástrojů s duší.</p>
+        </div>
+    </section>
+
+    <!-- ============ O MNĚ ============ -->
+    <section class="section">
+        <div class="container about">
+            <div class="about__media" aria-hidden="true">
+                <img src="img/about-me.jpeg" alt="Dudař při práci na nástroji" class="about__img">
+            </div>
+
+            <div class="about__body prose">
+                <h2 class="about__title">Řemeslo, které mě našlo</h2>
+                <p>Je mi 34 let a dudám i dudy vyrábím od dětství. To, co začalo jako zvědavost a obdiv k tradičnímu nástroji, se postupně proměnilo v celoživotní vášeň a poslání.</p>
+                <span class="divider"></span>
+                <p>Každé dudy skládám kompletně ručně – od výběru dřeva, přes soustružení a ladění, až po finální kožené měchy. Ročně tak vznikne přibližně deset originálních nástrojů, z nichž žádné dva nejsou stejné.</p>
+                <p>Věřím, že nástroj má mít duši. Proto se u každého kusu snažím spojit staleté řemeslné postupy s citem pro zvuk, který obstojí v rukou muzikantů i na pódiu.</p>
+
+                <div class="facts">
+                    <div class="fact">
+                        <div class="fact__num">34</div>
+                        <div class="fact__label">let věku</div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact__num">10</div>
+                        <div class="fact__label">dud ročně</div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact__num">100%</div>
+                        <div class="fact__label">ruční práce</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-band">
+        <div class="container">
+            <h2>Chcete vlastní nástroj?</h2>
+            <p>Napište mi a společně probereme, jaké dudy by nejlépe vystihly váš hudební projev.</p>
+            <a href="kontakt.html" class="btn btn--solid cta-band__btn">NAPIŠTE MI</a>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__about">
+                    <a href="index.html" class="logo" aria-label="Dudy – ruční výroba">
+                        <span class="logo__mark" aria-hidden="true">
+                            <svg viewBox="0 0 32 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 3v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                                <path d="M11 6l5-3 5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="12.5" y="13" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+                                <path d="M16 22c-4 3-6 7-6 12v6h12v-6c0-5-2-9-6-12z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="logo__text">
+                            <strong>DUDY</strong>
+                            <small>RUČNÍ VÝROBA</small>
+                        </span>
+                    </a>
+                    <p>Ruční výroba tradičních dud s úctou k řemeslu a láskou k hudbě. Každý nástroj je originál.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Stránky</h4>
+                    <ul>
+                        <li><a href="o-mne.html">O mně</a></li>
+                        <li><a href="vyroba.html">Výroba dud</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="reference.html">Reference</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li><a href="mailto:info@dudy.cz">info@dudy.cz</a></li>
+                        <li><a href="tel:+420777123456">+420 777 123 456</a></li>
+                        <li>Česká republika</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>© 2026 Dudy – ruční výroba</span>
+                <span>Tradice. Řemeslo. Srdce.</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

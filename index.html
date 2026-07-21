@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudy – ruční výroba tradičních dud</title>
+    <meta name="description" content="Ruční výroba tradičních dud. Každý nástroj je originál, vzniklý poctivou ruční prací a láskou k tradici.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+
+        <!-- ---- Header / Navigace ---- -->
+        <header class="header">
+            <div class="container header__inner">
+
+                <a href="index.html" class="logo" aria-label="Dudy – ruční výroba">
+                    <span class="logo__mark" aria-hidden="true">
+                        <svg viewBox="0 0 32 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                            <path d="M11 6l5-3 5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="12.5" y="13" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M16 22c-4 3-6 7-6 12v6h12v-6c0-5-2-9-6-12z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                            <circle cx="14" cy="31" r="1" fill="currentColor"/>
+                            <circle cx="18" cy="34" r="1" fill="currentColor"/>
+                            <circle cx="16" cy="27" r="1" fill="currentColor"/>
+                        </svg>
+                    </span>
+                    <span class="logo__text">
+                        <strong>DUDY</strong>
+                        <small>RUČNÍ VÝROBA</small>
+                    </span>
+                </a>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+                <label for="nav-toggle" class="nav-burger" aria-label="Otevřít menu">
+                    <span></span><span></span><span></span>
+                </label>
+
+                <nav class="nav" aria-label="Hlavní navigace">
+                    <ul>
+                        <li><a href="o-mne.html">O MNĚ</a></li>
+                        <li><a href="vyroba.html">VÝROBA DUD</a></li>
+                        <li><a href="galerie.html">GALERIE</a></li>
+                        <li><a href="reference.html">REFERENCE</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--outline nav__cta">NAPIŠTE MI</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ---- Hero obsah ---- -->
+        <div class="container hero__content">
+            <p class="eyebrow">TRADICE. ŘEMESLO. SRDCE.</p>
+
+            <h1 class="hero__title">Dudy vyrábím<br>ručně. Od začátku<br>do posledního tónu.</h1>
+
+            <span class="divider"></span>
+
+            <p class="hero__lead">
+                Jsem nejmladší dudař v ČR – je mi 34 let.<br>
+                Ročně vytvořím přibližně 10 dud.<br>
+                Každý nástroj je originál, vzniklý poctivou<br>
+                ruční prací a dlouhými hodinami soustředění.
+            </p>
+
+            <ul class="usp">
+                <li class="usp__item">
+                    <span class="usp__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M8 11V5.5a1.5 1.5 0 013 0V11m0-1V4.5a1.5 1.5 0 013 0V11m0-.5V6a1.5 1.5 0 013 0v7a6 6 0 01-6 6h-1.2a4 4 0 01-3-1.35L6 15.2a1.6 1.6 0 012.4-2.1L10 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <div class="usp__text">
+                        <h3>RUČNÍ VÝROBA</h3>
+                        <p>Každý kus je originál.</p>
+                    </div>
+                </li>
+                <li class="usp__item">
+                    <span class="usp__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.5"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <div class="usp__text">
+                        <h3>ČAS A TRPĚLIVOST</h3>
+                        <p>Desítky hodin práce.</p>
+                    </div>
+                </li>
+                <li class="usp__item">
+                    <span class="usp__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 19.5l-1.1-1C6.4 14.4 4 12.2 4 9.5A3.5 3.5 0 0112 7a3.5 3.5 0 018 2.5c0 2.7-2.4 4.9-6.9 9l-1.1 1z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <div class="usp__text">
+                        <h3>LÁSKA K TRADICI</h3>
+                        <p>Řemeslo s úctou k minulosti.</p>
+                    </div>
+                </li>
+            </ul>
+
+            <a href="vyroba.html" class="btn btn--solid hero__cta">
+                VÍCE O VÝROBĚ
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m0 0l-5-5m5 5l-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- ============ SPODNÍ PRUH ============ -->
+    <section class="strip">
+        <div class="strip__edge" aria-hidden="true"></div>
+        <div class="container strip__inner">
+
+            <div class="strip__item">
+                <span class="strip__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 8h-3v9h-8v-9H5l7-8z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M12 6.5l4 4.5m-4-4.5l-4 4.5" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                </span>
+                <div class="strip__text">
+                    <h3>POCTIVÉ MATERIÁLY</h3>
+                    <p>Dřevo, kůže a další materiály pečlivě vybírám.</p>
+                </div>
+            </div>
+
+            <div class="strip__item">
+                <span class="strip__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M3 18l5-7 3 4 3-5 4 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 18h19" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                </span>
+                <div class="strip__text">
+                    <h3>VYROBENO V ČESKU</h3>
+                    <p>Každé dudy vznikají v mé dílně.</p>
+                </div>
+            </div>
+
+            <div class="strip__item">
+                <span class="strip__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M5 15V9m3.5 9V6M12 16.5v-9M15.5 18V6M19 15V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                </span>
+                <div class="strip__text">
+                    <h3>PROFESIONÁLNÍ ZVUK</h3>
+                    <p>Nástroje laděné s citem pro tradici i hudbu.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference | Dudy – ruční výroba</title>
+    <meta name="description" content="Co říkají muzikanti a zákazníci na ručně vyrobené dudy. Reference a zkušenosti.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ HLAVIČKA ============ -->
+    <header class="header header--solid">
+        <div class="container header__inner">
+            <a href="index.html" class="logo" aria-label="Dudy – ruční výroba">
+                <span class="logo__mark" aria-hidden="true">
+                    <svg viewBox="0 0 32 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 3v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                        <path d="M11 6l5-3 5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="12.5" y="13" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M16 22c-4 3-6 7-6 12v6h12v-6c0-5-2-9-6-12z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                        <circle cx="14" cy="31" r="1" fill="currentColor"/>
+                        <circle cx="18" cy="34" r="1" fill="currentColor"/>
+                        <circle cx="16" cy="27" r="1" fill="currentColor"/>
+                    </svg>
+                </span>
+                <span class="logo__text">
+                    <strong>DUDY</strong>
+                    <small>RUČNÍ VÝROBA</small>
+                </span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+            <label for="nav-toggle" class="nav-burger" aria-label="Otevřít menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav" aria-label="Hlavní navigace">
+                <ul>
+                    <li><a href="o-mne.html">O MNĚ</a></li>
+                    <li><a href="vyroba.html">VÝROBA DUD</a></li>
+                    <li><a href="galerie.html">GALERIE</a></li>
+                    <li><a href="reference.html" class="is-active">REFERENCE</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+                <a href="kontakt.html" class="btn btn--outline nav__cta">NAPIŠTE MI</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============ BANNER ============ -->
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">SLOVA MUZIKANTŮ</p>
+            <h1 class="page-hero__title">Reference</h1>
+            <span class="divider"></span>
+            <p class="page-hero__lead">Největší odměnou je pro mě spokojenost hudebníků, kteří na mé nástroje hrají. Zde jsou jejich slova.</p>
+        </div>
+    </section>
+
+    <!-- ============ REFERENCE ============ -->
+    <section class="section">
+        <div class="container">
+            <div class="quotes">
+                <figure class="quote">
+                    <div class="quote__mark" aria-hidden="true">“</div>
+                    <blockquote class="quote__text">Dudy hrají nádherně a drží ladění i po hodinách hraní. Poznat, že je dělal někdo se srdcem.</blockquote>
+                    <figcaption class="quote__author">
+                        <span class="quote__avatar" aria-hidden="true">JN</span>
+                        <span>
+                            <span class="quote__name">Jan Novák</span>
+                            <span class="quote__role">Folklorní soubor</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="quote">
+                    <div class="quote__mark" aria-hidden="true">“</div>
+                    <blockquote class="quote__text">Objednal jsem nástroj na míru a předčil má očekávání. Precizní práce a skvělá komunikace.</blockquote>
+                    <figcaption class="quote__author">
+                        <span class="quote__avatar" aria-hidden="true">PS</span>
+                        <span>
+                            <span class="quote__name">Petr Svoboda</span>
+                            <span class="quote__role">Profesionální dudák</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="quote">
+                    <div class="quote__mark" aria-hidden="true">“</div>
+                    <blockquote class="quote__text">Zvuk má hloubku a duši. Je vidět, že za každým nástrojem stojí desítky hodin poctivé práce.</blockquote>
+                    <figcaption class="quote__author">
+                        <span class="quote__avatar" aria-hidden="true">MK</span>
+                        <span>
+                            <span class="quote__name">Marie Kučerová</span>
+                            <span class="quote__role">Lektorka lidové hudby</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="quote">
+                    <div class="quote__mark" aria-hidden="true">“</div>
+                    <blockquote class="quote__text">Krásné zpracování a naprosto spolehlivý nástroj i po několika letech používání. Vřele doporučuji.</blockquote>
+                    <figcaption class="quote__author">
+                        <span class="quote__avatar" aria-hidden="true">TH</span>
+                        <span>
+                            <span class="quote__name">Tomáš Horák</span>
+                            <span class="quote__role">Muzikant</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="quote">
+                    <div class="quote__mark" aria-hidden="true">“</div>
+                    <blockquote class="quote__text">Ceníme si individuálního přístupu. Dudy skvěle sedí do našeho repertoáru a publikum je nadšené.</blockquote>
+                    <figcaption class="quote__author">
+                        <span class="quote__avatar" aria-hidden="true">LV</span>
+                        <span>
+                            <span class="quote__name">Lucie Veselá</span>
+                            <span class="quote__role">Kapelnice</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="quote">
+                    <div class="quote__mark" aria-hidden="true">“</div>
+                    <blockquote class="quote__text">Nástroj je nádherný na pohled i na poslech. Jsem rád, že takové řemeslo u nás stále žije.</blockquote>
+                    <figcaption class="quote__author">
+                        <span class="quote__avatar" aria-hidden="true">JD</span>
+                        <span>
+                            <span class="quote__name">Josef Dvořák</span>
+                            <span class="quote__role">Sběratel nástrojů</span>
+                        </span>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-band">
+        <div class="container">
+            <h2>Přidejte se k spokojeným muzikantům</h2>
+            <p>Napište mi a staňte se dalším majitelem originálního ručně vyrobeného nástroje.</p>
+            <a href="kontakt.html" class="btn btn--solid cta-band__btn">NAPIŠTE MI</a>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__about">
+                    <a href="index.html" class="logo" aria-label="Dudy – ruční výroba">
+                        <span class="logo__mark" aria-hidden="true">
+                            <svg viewBox="0 0 32 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 3v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                                <path d="M11 6l5-3 5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="12.5" y="13" width="7" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+                                <path d="M16 22c-4 3-6 7-6 12v6h12v-6c0-5-2-9-6-12z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="logo__text">
+                            <strong>DUDY</strong>
+                            <small>RUČNÍ VÝROBA</small>
+                        </span>
+                    </a>
+                    <p>Ruční výroba tradičních dud s úctou k řemeslu a láskou k hudbě. Každý nástroj je originál.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Stránky</h4>
+                    <ul>
+                        <li><a href="o-mne.html">O mně</a></li>
+                        <li><a href="vyroba.html">Výroba dud</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="reference.html">Reference</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li><a href="mailto:info@dudy.cz">info@dudy.cz</a></li>
+                        <li><a href="tel:+420777123456">+420 777 123 456</a></li>
+                        <li>Česká republika</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>© 2026 Dudy – ruční výroba</span>
+                <span>Tradice. Řemeslo. Srdce.</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
