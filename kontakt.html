@@ -101,7 +101,17 @@
                 </div>
             </div>
 
-            <form class="form" action="#" method="post" novalidate>
+            <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms: vložte svůj přístupový klíč z https://web3forms.com (zdarma, bez účtu) -->
+                <input type="hidden" name="access_key" value="VLOZTE-SVUJ-ACCESS-KEY">
+                <!-- Předmět e-mailu, který vám dorazí -->
+                <input type="hidden" name="subject" value="Nová zpráva z webu Dudy.cz">
+                <input type="hidden" name="from_name" value="Web Dudy – ruční výroba">
+                <!-- Kam přesměrovat po úspěšném odeslání (nepovinné) -->
+                <input type="hidden" name="redirect" value="dekujeme.html">
+                <!-- Honeypot proti spamu – lidé toto pole nevyplní -->
+                <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
                 <div class="form__row form__row--split">
                     <div>
                         <label for="jmeno">Jméno a příjmení</label>
