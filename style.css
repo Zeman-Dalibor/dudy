@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Dudy – ruční výroba  |  responzivní statická stránka
+    Strakonický dudy  |  responzivní statická stránka
    ========================================================================== */
 
 :root {
@@ -799,6 +799,54 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
     border-radius: 6px;
     display: flex;
     flex-direction: column;
+}
+.media-link {
+    color: inherit;
+    text-decoration: none;
+    transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.media-link:hover {
+    background: rgba(196, 154, 95, .12);
+    border-color: rgba(196, 154, 95, .45);
+    transform: translateY(-3px);
+}
+.media-link:focus-visible {
+    outline: 2px solid var(--c-gold);
+    outline-offset: 3px;
+}
+.media-link .quote__name {
+    display: block;
+    margin: .55rem 0 .8rem;
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+}
+.media-link .quote__text {
+    font-family: var(--font-sans);
+    font-size: .9rem;
+    font-style: normal;
+    margin-bottom: 1.2rem;
+}
+.media-link__action {
+    margin-top: auto;
+    color: var(--c-gold);
+    font-size: .82rem;
+    font-weight: 600;
+}
+.media-award {
+    grid-column: 1 / -1;
+    margin-top: 1.6rem;
+}
+.media-award .quote__name { margin: .55rem 0 1rem; }
+.media-award__description {
+    max-width: 52rem;
+    color: var(--c-text-muted);
+    line-height: 1.7;
+}
+.media-award__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    margin-top: 1rem;
 }
 .quote__mark {
     font-family: var(--font-serif);
