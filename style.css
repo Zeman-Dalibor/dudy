@@ -491,6 +491,7 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
 
 /* ----- Obecná sekce ----- */
 .section { padding-block: clamp(3.5rem, 8vw, 6rem); }
+.section--flush-top { padding-top: 0; }
 .section--cream {
     background: var(--c-cream);
     color: var(--c-brown);
@@ -642,6 +643,11 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
     margin-bottom: .6rem;
 }
 .card p { margin: 0; color: var(--c-text-muted); font-size: .9rem; }
+.cards--2 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 52rem;
+    margin-inline: auto;
+}
 
 /* ==========================================================================
    GALERIE
