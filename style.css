@@ -823,6 +823,18 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
     text-decoration: none;
     transition: background .2s ease, border-color .2s ease, transform .2s ease;
 }
+.link-favicon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    flex: 0 0 auto;
+    margin-bottom: .85rem;
+}
+.media-award__links .link-favicon {
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-bottom: 0;
+}
 .media-link:hover {
     background: rgba(196, 154, 95, .12);
     border-color: rgba(196, 154, 95, .45);

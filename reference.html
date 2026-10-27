@@ -166,5 +166,22 @@
         </div>
     </footer>
 
+    <script>
+        document.querySelectorAll('a.media-link[href^="http://"], a.media-link[href^="https://"], .media-award__links a[href^="http://"], .media-award__links a[href^="https://"]').forEach(link => {
+            const domena = new URL(link.href).hostname;
+            const faviconUrl = `https://www.google.com/s2/favicons?domain=${domena}&sz=32`;
+            const favicon = document.createElement('img');
+
+            favicon.className = 'link-favicon';
+            favicon.src = faviconUrl;
+            favicon.alt = '';
+            favicon.setAttribute('aria-hidden', 'true');
+            favicon.width = 32;
+            favicon.height = 32;
+            favicon.loading = 'lazy';
+            favicon.decoding = 'async';
+            link.prepend(favicon);
+        });
+    </script>
 </body>
 </html>
