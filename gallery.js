@@ -6,9 +6,17 @@
 (function () {
     "use strict";
 
-    document.addEventListener("DOMContentLoaded", function () {
+    function initGallery() {
+        var language = document.documentElement.lang || "cs";
+        var text = {
+            cs: { zoom: "Zvětšit obrázek: ", dialog: "Zvětšený obrázek", close: "Zavřít", previous: "Předchozí", next: "Další" },
+            en: { zoom: "Enlarge image: ", dialog: "Enlarged image", close: "Close", previous: "Previous", next: "Next" },
+            de: { zoom: "Bild vergrößern: ", dialog: "Vergrößertes Bild", close: "Schließen", previous: "Zurück", next: "Weiter" }
+        }[language] || { zoom: "Enlarge image: ", dialog: "Enlarged image", close: "Close", previous: "Previous", next: "Next" };
         var gallery = document.querySelector(".gallery");
         if (!gallery) return;
+        if (gallery.dataset.lightboxInitialized) return;
+        gallery.dataset.lightboxInitialized = "true";
 
         // Sesbírej pouze položky, které obsahují skutečný obrázek
         var items = Array.prototype.filter.call(
@@ -37,7 +45,7 @@
             item.classList.add("is-zoomable");
             item.setAttribute("tabindex", "0");
             item.setAttribute("role", "button");
-            item.setAttribute("aria-label", "Zvětšit obrázek: " + slides[index].caption);
+            item.setAttribute("aria-label", text.zoom + slides[index].caption);
             item.insertAdjacentHTML("beforeend", zoomIcon);
 
             item.addEventListener("click", function () { open(index); });
@@ -54,16 +62,16 @@
         lb.className = "lightbox";
         lb.setAttribute("role", "dialog");
         lb.setAttribute("aria-modal", "true");
-        lb.setAttribute("aria-label", "Zvětšený obrázek");
+        lb.setAttribute("aria-label", text.dialog);
         lb.innerHTML =
             '<div class="lightbox__backdrop" data-close></div>' +
-            '<button class="lightbox__btn lightbox__close" type="button" aria-label="Zavřít">' +
+            '<button class="lightbox__btn lightbox__close" type="button" aria-label="' + text.close + '">' +
                 '<svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>' +
             '</button>' +
-            '<button class="lightbox__btn lightbox__prev" type="button" aria-label="Předchozí">' +
+            '<button class="lightbox__btn lightbox__prev" type="button" aria-label="' + text.previous + '">' +
                 '<svg viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
             '</button>' +
-            '<button class="lightbox__btn lightbox__next" type="button" aria-label="Další">' +
+            '<button class="lightbox__btn lightbox__next" type="button" aria-label="' + text.next + '">' +
                 '<svg viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
             '</button>' +
             '<figure class="lightbox__stage">' +
@@ -128,5 +136,8 @@
         lb.querySelectorAll("[data-close]").forEach(function (el) {
             el.addEventListener("click", close);
         });
-    });
+    }
+
+    window.initGallery = initGallery;
+    initGallery();
 })();

@@ -1,0 +1,50 @@
+{
+  "home": {
+    "slug": "",
+    "title": "Handgefertigte traditionelle Dudelsäcke | Strakonický Dudy",
+    "description": "Handgefertigte traditionelle tschechische Dudelsäcke. Jedes Instrument ist ein Unikat, mit Sorgfalt und Liebe zur Tradition gefertigt.",
+    "robots": "index,follow"
+  },
+  "about": {
+    "slug": "ueber-mich",
+    "title": "Über mich | Strakonický Dudy",
+    "description": "Lernen Sie Patrik Ředina kennen, einen tschechischen Dudelsackbauer, der ein seltenes Handwerk bewahrt.",
+    "robots": "index,follow"
+  },
+  "making": {
+    "slug": "herstellung",
+    "title": "Strakonický Dudy | Herstellung der Dudelsäcke",
+    "description": "So entsteht ein handgefertigter Dudelsack: von der Holzauswahl über das Drechseln bis zur finalen Stimmung.",
+    "robots": "index,follow"
+  },
+  "features": {
+    "slug": "instrument",
+    "title": "Der Dudelsack | Strakonický Dudy",
+    "description": "Entdecken Sie die verfügbaren Stimmungen sowie geschnitzte Ziegen- oder Teufelsköpfe für Ihren Dudelsack.",
+    "robots": "index,follow"
+  },
+  "gallery": {
+    "slug": "galerie",
+    "title": "Galerie | Strakonický Dudy",
+    "description": "Handgefertigte Dudelsäcke und Einblicke in die Werkstatt. Jedes Instrument hat seine eigene Geschichte.",
+    "robots": "index,follow"
+  },
+  "press": {
+    "slug": "presse",
+    "title": "In den Medien | Strakonický Dudy",
+    "description": "Berichte und Artikel über Patrik Ředina und die Herstellung traditioneller Dudelsäcke aus Strakonice.",
+    "robots": "index,follow"
+  },
+  "contact": {
+    "slug": "kontakt",
+    "title": "Kontakt | Strakonický Dudy",
+    "description": "Kontaktieren Sie mich für einen maßgefertigten Dudelsack. Schreiben Sie eine Nachricht oder rufen Sie an.",
+    "robots": "index,follow"
+  },
+  "thanks": {
+    "slug": "danke",
+    "title": "Vielen Dank | Strakonický Dudy",
+    "description": "Vielen Dank für Ihre Nachricht. Ich melde mich so bald wie möglich.",
+    "robots": "noindex"
+  }
+}

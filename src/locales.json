@@ -1,0 +1,68 @@
+{
+  "cs": {
+    "htmlLang": "cs",
+    "languageName": "Čeština",
+    "menuLabel": "Otevřít menu",
+    "navigationLabel": "Hlavní navigace",
+    "languageLabel": "Změnit jazyk",
+    "contactCta": "NAPIŠTE MI",
+    "footerPagesTitle": "Stránky",
+    "footerContactTitle": "Kontakt",
+    "footerIntro": "Ruční výroba tradičních dud s úctou k řemeslu a láskou k hudbě. Každý nástroj je originál.",
+    "workshopLabel": "Dílna:",
+    "footerTagline": "Tradice. Řemeslo. Srdce.",
+    "nav": {
+      "home": "Úvod",
+      "about": "O mně",
+      "making": "Strakonický Dudy",
+      "features": "Charakteristika",
+      "gallery": "Galerie",
+      "press": "V médiích",
+      "contact": "Kontakt"
+    }
+  },
+  "en": {
+    "htmlLang": "en",
+    "languageName": "English",
+    "menuLabel": "Open menu",
+    "navigationLabel": "Main navigation",
+    "languageLabel": "Change language",
+    "contactCta": "CONTACT ME",
+    "footerPagesTitle": "Pages",
+    "footerContactTitle": "Contact",
+    "footerIntro": "Traditional bagpipes, handcrafted with respect for the craft and a love of music. Every instrument is unique.",
+    "workshopLabel": "Workshop:",
+    "footerTagline": "Tradition. Craft. Heart.",
+    "nav": {
+      "home": "Home",
+      "about": "About me",
+      "making": "Strakonický Dudy",
+      "features": "The instrument",
+      "gallery": "Gallery",
+      "press": "In the media",
+      "contact": "Contact"
+    }
+  },
+  "de": {
+    "htmlLang": "de",
+    "languageName": "Deutsch",
+    "menuLabel": "Menü öffnen",
+    "navigationLabel": "Hauptnavigation",
+    "languageLabel": "Sprache ändern",
+    "contactCta": "KONTAKT",
+    "footerPagesTitle": "Seiten",
+    "footerContactTitle": "Kontakt",
+    "footerIntro": "Traditionelle Dudelsäcke in Handarbeit – mit Achtung vor dem Handwerk und Liebe zur Musik. Jedes Instrument ist ein Unikat.",
+    "workshopLabel": "Werkstatt:",
+    "footerTagline": "Tradition. Handwerk. Herz.",
+    "nav": {
+      "home": "Startseite",
+      "about": "Über mich",
+      "making": "Strakonický Dudy",
+      "features": "Das Instrument",
+      "gallery": "Galerie",
+      "press": "In den Medien",
+      "contact": "Kontakt"
+    }
+  }
+}

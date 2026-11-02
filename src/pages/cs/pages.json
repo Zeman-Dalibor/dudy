@@ -1,0 +1,50 @@
+{
+  "home": {
+    "slug": "",
+    "title": "Ruční výroba tradičních dud | Strakonický Dudy",
+    "description": "Ruční výroba tradičních dud. Každý nástroj je originál, vzniklý poctivou ruční prací a láskou k tradici.",
+    "robots": "index,follow"
+  },
+  "about": {
+    "slug": "o-mne",
+    "title": "O mně | Strakonický Dudy",
+    "description": "Jsem nejmladší dudař v ČR. Dudy vyrábím kompletně ručně s úctou k tradici a láskou k řemeslu.",
+    "robots": "index,follow"
+  },
+  "making": {
+    "slug": "vyroba",
+    "title": "Strakonický Dudy | Výroba dud",
+    "description": "Jak vznikají ruční dudy – od výběru materiálu přes soustružení až po finální ladění nástroje.",
+    "robots": "index,follow"
+  },
+  "features": {
+    "slug": "charakteristika",
+    "title": "Charakteristika dud | Strakonický Dudy",
+    "description": "Charakteristika mých dud – výroba ve dvou laděních a volba mezi čertovskou a kozí hlavou.",
+    "robots": "index,follow"
+  },
+  "gallery": {
+    "slug": "galerie",
+    "title": "Galerie | Strakonický Dudy",
+    "description": "Galerie ručně vyrobených dud a ukázky z dílny. Každý nástroj je originál.",
+    "robots": "index,follow"
+  },
+  "press": {
+    "slug": "reference",
+    "title": "V médiích | Strakonický Dudy",
+    "description": "Reportáže a články o Patriku Ředinovi a výrobě strakonických dud.",
+    "robots": "index,follow"
+  },
+  "contact": {
+    "slug": "kontakt",
+    "title": "Kontakt | Strakonický Dudy",
+    "description": "Kontaktujte mě ohledně výroby dud na míru. Napište mi zprávu nebo zavolejte.",
+    "robots": "index,follow"
+  },
+  "thanks": {
+    "slug": "dekujeme",
+    "title": "Děkuji | Strakonický Dudy",
+    "description": "Děkuji za vaši zprávu. Ozvu se vám co nejdříve.",
+    "robots": "noindex"
+  }
+}

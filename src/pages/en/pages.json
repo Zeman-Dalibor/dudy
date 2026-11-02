@@ -1,0 +1,50 @@
+{
+  "home": {
+    "slug": "",
+    "title": "Handcrafted Traditional Czech Bagpipes | Strakonický Dudy",
+    "description": "Handcrafted traditional Czech bagpipes. Every instrument is unique, made by hand with care and a love of tradition.",
+    "robots": "index,follow"
+  },
+  "about": {
+    "slug": "about-me",
+    "title": "About Me | Strakonický Dudy",
+    "description": "Meet Patrik Ředina, a Czech bagpipe maker preserving a rare craft through entirely handmade instruments.",
+    "robots": "index,follow"
+  },
+  "making": {
+    "slug": "making",
+    "title": "Strakonický Dudy | How Bagpipes Are Made",
+    "description": "Discover how handmade bagpipes take shape, from selecting the wood to turning, assembly and final tuning.",
+    "robots": "index,follow"
+  },
+  "features": {
+    "slug": "instrument",
+    "title": "The Bagpipe | Strakonický Dudy",
+    "description": "Explore the tunings and carved goat or devil heads available for a custom-made Strakonice bagpipe.",
+    "robots": "index,follow"
+  },
+  "gallery": {
+    "slug": "gallery",
+    "title": "Gallery | Strakonický Dudy",
+    "description": "Handmade bagpipes and moments from the workshop. Every instrument has its own story and character.",
+    "robots": "index,follow"
+  },
+  "press": {
+    "slug": "press",
+    "title": "In the Media | Strakonický Dudy",
+    "description": "Reports and articles about Patrik Ředina and the craft of making traditional bagpipes by Strakonický Dudy.",
+    "robots": "index,follow"
+  },
+  "contact": {
+    "slug": "contact",
+    "title": "Contact | Strakonický Dudy",
+    "description": "Get in touch about a custom-made bagpipe. Send a message or call Patrik Ředina.",
+    "robots": "index,follow"
+  },
+  "thanks": {
+    "slug": "thank-you",
+    "title": "Thank You | Strakonický Dudy",
+    "description": "Thank you for your message. I will get back to you as soon as possible.",
+    "robots": "noindex"
+  }
+}

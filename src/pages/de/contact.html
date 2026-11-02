@@ -1,0 +1,99 @@
+<!-- ============ HLAVIČKA ============ -->
+
+
+    <!-- ============ BANNER ============ -->
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">KONTAKTIEREN SIE MICH</p>
+            <h1 class="page-hero__title">Kontakt</h1>
+            <span class="divider"></span>
+            <p class="page-hero__lead">Interessieren Sie sich für ein eigenes Instrument oder haben Sie eine Frage? Schreiben Sie mir – ich antworte gern.</p>
+        </div>
+    </section>
+
+    <!-- ============ KONTAKT ============ -->
+    <section class="section">
+        <div class="container contact">
+            <div class="contact__info">
+                <h2>Lassen Sie uns sprechen</h2>
+                <p class="prose">Jeder Dudelsack wird individuell gefertigt. Schreiben Sie mir, welches Instrument Sie suchen, und wir finden gemeinsam die beste Lösung. Ich antworte normalerweise innerhalb weniger Tage.</p>
+
+                <div class="contact__list">
+                    <div class="contact__row">
+                        <span class="ico" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                        <span>
+                            <span class="lbl">E-Mail</span>
+                            <a class="val" href="mailto:patrikredina@email.cz">patrikredina@email.cz</a>
+                        </span>
+                    </div>
+                    <div class="contact__row">
+                        <span class="ico" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                        </span>
+                        <span>
+                            <span class="lbl">Telefon</span>
+                            <a class="val" href="tel:+420728884030">+420 728 884 030</a>
+                        </span>
+                    </div>
+                    <div class="contact__row">
+                        <span class="ico" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4z" fill="currentColor"/></svg>
+                        </span>
+                        <span>
+                            <span class="lbl">Facebook</span>
+                            <a class="val" href="https://www.facebook.com/patrik.redina" target="_blank" rel="noopener noreferrer">patrik.redina</a>
+                        </span>
+                    </div>
+                    <div class="contact__row">
+                        <span class="ico" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.5 7-11a7 7 0 10-14 0c0 4.5 7 11 7 11z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>
+                        </span>
+                        <span>
+                            <span class="lbl">Werkstatt</span>
+                            <span class="val">Jinín čp. 15,</span>
+                            <span class="val">386 01 Strakonice</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms: vložte svůj přístupový klíč z https://web3forms.com (zdarma, bez účtu) -->
+                <input type="hidden" name="access_key" value="VLOZTE-SVUJ-ACCESS-KEY">
+                <!-- Předmět e-mailu, který vám dorazí -->
+                <input type="hidden" name="subject" value="Neue Nachricht von Strakonický Dudy">
+                <input type="hidden" name="from_name" value="Website von Strakonický Dudy">
+                <!-- Kam přesměrovat po úspěšném odeslání (nepovinné) -->
+                <input type="hidden" name="redirect" value="#dekujeme">
+                <!-- Honeypot proti spamu – lidé toto pole nevyplní -->
+                <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+                <div class="form__row form__row--split">
+                    <div>
+                        <label for="jmeno">Vor- und Nachname</label>
+                        <input type="text" id="jmeno" name="jmeno" autocomplete="name" required>
+                    </div>
+                    <div>
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <label for="telefon">Telefon (optional)</label>
+                    <input type="tel" id="telefon" name="telefon" autocomplete="tel">
+                </div>
+                <div class="form__row">
+                    <label for="zprava">Ihre Nachricht</label>
+                    <textarea id="zprava" name="zprava" required></textarea>
+                </div>
+                <button type="submit" class="btn btn--solid">
+                    NACHRICHT SENDEN
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m0 0l-5-5m5 5l-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->

@@ -1,0 +1,34 @@
+<header id="site-header" class="header">
+        <div class="container header__inner">
+            <a href="./" data-page-id="home" class="logo" aria-label="Strakonický Dudy">
+                <span class="logo__mark" aria-hidden="true">
+                    <img src="img/logo.png" alt="Logo Strakonický Dudy" width="50" height="50">
+                </span>
+                <span class="logo__text">
+                    <small>Strakonický</small>
+                    <strong>DUDY</strong>
+                </span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+            <label for="nav-toggle" class="nav-burger" aria-label="{{MENU_LABEL}}">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav" aria-label="{{NAVIGATION_LABEL}}">
+                <ul>
+{{NAV_LINKS}}
+                </ul>
+                <details class="language-switcher">
+                    <summary aria-label="{{LANGUAGE_LABEL}}">
+                        <span aria-hidden="true">{{CURRENT_LANGUAGE_FLAG}}</span>
+                        <span class="sr-only">{{CURRENT_LANGUAGE_NAME}}</span>
+                    </summary>
+                    <div class="language-switcher__menu" aria-label="{{LANGUAGE_LABEL}}">
+{{LANGUAGE_LINKS}}
+                    </div>
+                </details>
+                <a href="contact/" data-page-id="contact" class="btn btn--outline nav__cta">{{CONTACT_CTA}}</a>
+            </nav>
+        </div>
+    </header>

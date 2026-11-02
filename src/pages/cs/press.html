@@ -1,50 +1,5 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V médiích | Strakonický dudy</title>
-    <meta name="description" content="Reportáže a články o Patriku Ředinovi a výrobě strakonických dud.">
+<!-- ============ HLAVIČKA ============ -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- ============ HLAVIČKA ============ -->
-    <header class="header header--solid">
-        <div class="container header__inner">
-            <a href="index.html" class="logo" aria-label="Strakonický dudy">
-                <span class="logo__mark" aria-hidden="true">
-                    <img src="img/logo.png" alt="Logo Strakonický dudy" width="50" height="50">
-                </span>
-                <span class="logo__text">
-                    <small>Strakonický</small>
-                    <strong>DUDY</strong>
-                </span>
-            </a>
-
-            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
-            <label for="nav-toggle" class="nav-burger" aria-label="Otevřít menu">
-                <span></span><span></span><span></span>
-            </label>
-
-            <nav class="nav" aria-label="Hlavní navigace">
-                <ul>
-                    <li><a href="o-mne.html">O MNĚ</a></li>
-                    <li><a href="vyroba.html">STRAKONICKÝ DUDY</a></li>
-                    <li><a href="charakteristika.html">CHARAKTERISTIKA</a></li>
-                    <li><a href="galerie.html">GALERIE</a></li>
-                    <li><a href="reference.html" class="is-active">V MÉDIÍCH</a></li>
-                    <li><a href="kontakt.html">KONTAKT</a></li>
-                </ul>
-                <a href="kontakt.html" class="btn btn--outline nav__cta">NAPIŠTE MI</a>
-            </nav>
-        </div>
-    </header>
 
     <!-- ============ BANNER ============ -->
     <section class="page-hero">
@@ -115,73 +70,8 @@
         <div class="container">
             <h2>Zaujala vás moje práce?</h2>
             <p>Napište mi a společně probereme výrobu dud na míru.</p>
-            <a href="kontakt.html" class="btn btn--solid cta-band__btn">NAPIŠTE MI</a>
+            <a href="#kontakt" data-page-id="contact" class="btn btn--solid cta-band__btn">NAPIŠTE MI</a>
         </div>
     </section>
 
     <!-- ============ FOOTER ============ -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__inner">
-                <div class="footer__about">
-                    <a href="index.html" class="logo" aria-label="Strakonický dudy">
-                        <span class="logo__mark" aria-hidden="true">
-                            <img src="img/logo.png" alt="Logo Strakonický dudy" width="50" height="50">
-                        </span>
-                        <span class="logo__text">
-                            <small>Strakonický</small>
-                            <strong>DUDY</strong>
-                        </span>
-                    </a>
-                    <p>Ruční výroba tradičních dud s úctou k řemeslu a láskou k hudbě. Každý nástroj je originál.</p>
-                </div>
-                <div class="footer__col">
-                    <h4>Stránky</h4>
-                    <ul>
-                        <li><a href="o-mne.html">O mně</a></li>
-                        <li><a href="vyroba.html">Strakonický dudy</a></li>
-                        <li><a href="charakteristika.html">Charakteristika</a></li>
-                        <li><a href="galerie.html">Galerie</a></li>
-                        <li><a href="reference.html">V médiích</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
-                    </ul>
-                </div>
-                <div class="footer__col">
-                    <h4>Kontakt</h4>
-                    <ul>
-                        <li><a href="mailto:patrikredina@email.cz">patrikredina@email.cz</a></li>
-                        <li><a href="tel:+420728884030">+420 728 884 030</a></li>
-                        <li><a href="https://www.facebook.com/patrik.redina" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                        <li>
-                            Dílna:<br/>
-                            Jinín čp. 15, 386 01 Strakonice
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                <span>© 2026 Strakonický dudy</span>
-                <span>Tradice. Řemeslo. Srdce.</span>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        document.querySelectorAll('a.media-link[href^="http://"], a.media-link[href^="https://"], .media-award__links a[href^="http://"], .media-award__links a[href^="https://"]').forEach(link => {
-            const domena = new URL(link.href).hostname;
-            const faviconUrl = `https://www.google.com/s2/favicons?domain=${domena}&sz=32`;
-            const favicon = document.createElement('img');
-
-            favicon.className = 'link-favicon';
-            favicon.src = faviconUrl;
-            favicon.alt = '';
-            favicon.setAttribute('aria-hidden', 'true');
-            favicon.width = 32;
-            favicon.height = 32;
-            favicon.loading = 'lazy';
-            favicon.decoding = 'async';
-            link.prepend(favicon);
-        });
-    </script>
-</body>
-</html>
