@@ -17,8 +17,9 @@ python3 build_site.py
 ```
 
 Hotový web se vytvoří ve složce `dist/`. Každá stránka je samostatný HTML
-dokument, například `dist/o-mne/index.html`, `dist/en/about-me/index.html`
-a `dist/de/ueber-mich/index.html`. Odkazy fungují i bez JavaScriptu;
+dokument, například `dist/Patrik-Redina/index.html`,
+`dist/en/Patrik-Redina/index.html` a `dist/de/Patrik-Redina/index.html`.
+Odkazy fungují i bez JavaScriptu;
 `site-router.js` přednačítá označené interní odkazy a při běžné navigaci
 vymění obsah bez obnovení dokumentu. GitHub Actions sestaví a nasadí `dist/`.
 

@@ -621,6 +621,14 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
     color: var(--c-cream);
     margin-bottom: 1.4rem;
 }
+.prose .about__signature {
+    margin: 0 0 1.4rem;
+    color: var(--c-gold);
+    font-family: "Caveat", cursive;
+    font-size: clamp(2.2rem, 4vw, 3rem);
+    line-height: 1;
+    text-align: right;
+}
 .about .divider { margin: 1.4rem 0; }
 
 /* Fakta / statistiky */
